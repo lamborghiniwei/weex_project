@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/infoList/infoList",
+    "pages/option/option"
+  ],
+  "window": {
+    "backgroundColor": "#ff2d4a",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c40000",
+    "navigationBarTitleText": "倩与倩寻",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "white",
+    "selectedColor": "#257ce1",
+    "color": "#666666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/infoList/infoList",
+        "iconPath": "/images/message.png",
+        "selectedIconPath": "/images/message_a.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/option/option",
+        "iconPath": "/images/option.png",
+        "selectedIconPath": "/images/option_a.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
